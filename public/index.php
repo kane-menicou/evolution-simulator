@@ -42,12 +42,15 @@ if ( ! ($world instanceof World)) {
     <title>Evolution Simulator</title>
 </head>
 <body>
+<hr>
+<a href="/">
+    <button>New World</button>
+</a>
 <form action="/" method="POST">
     <label>
         <input type="text" name="world" value="<?php echo base64_encode(serialize($world)) ?>" hidden="hidden"/>
     </label>
     <label>
-        Progress
         <input type="submit" name="submit"/>
     </label>
 </form>
