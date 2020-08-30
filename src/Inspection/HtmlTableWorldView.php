@@ -13,7 +13,7 @@ class HtmlTableWorldView implements WorldVisualisationInterface
 
     public function stringifyWorld(World $world): string
     {
-        $worldString = '<table>';
+        $worldString = '<table style="border: 1px solid red;">';
 
         for ($x = 0; $x < $world->getWidth(); $x++) {
             $worldString .= '<tr>';

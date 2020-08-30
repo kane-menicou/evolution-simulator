@@ -53,6 +53,7 @@ $worldHtml = (new HtmlTableWorldView())->stringifyWorld($world);
         <input type="submit" name="submit"/>
     </label>
 </form>
+<hr>
 <?= $worldHtml ?>
 </body>
 </html>
